@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    background: radial-gradient(black, sienna);
+    color: hsla(32, 81%, 71%, 1);
+    height: 100%;
+}
+
+h1, h2{
+   text-align: center;
+   width: 100%; 
+}
+
+form, input, .whatYouAre, button{
+    margin:auto;
+    width: 50%;
+}
+
+.infoEntry{
+    width: 50%;
+    float: left;
+}
+
+.toGetResult{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    display: flex;
+    align-items: center;
+}
+
+/* #btn{
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+} */
+
+@media screen and (min-width: 300px) and (max-width: 812px) {
+    body{
+        background: linear-gradient(brown, sienna);
+    }
+}

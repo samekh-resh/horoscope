@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>s.ourc.e-strology</title>
+    <link rel='stylesheet' href='css/blackscope.css'>
+</head>
+<body>
+    <header>
+        <h1 id='theTitle'>s.ource. strology</h1>
+        <link rel='stylesheet' href='css/blackscope.css'>
+    </header>
+
+    <section>
+
+        <h2>you wanna know what source says about your horoscope? Enter your month and birthdate, in numbers, please.</h2> 
+        <p>ex: september = 09, twelfth = 12, etc...</p>
+        <section class='infoEntry'>
+            <form>
+                <label for='month'> the month, please</label>
+                <input type='text' id='month' name='month' placeholder='put in your month'>
+            </form>
+        </section>
+        <section class='infoEntry'>
+            <form>
+                <label for='day'>the day, please</label>
+                <input type='text' id='day' name='day' placeholder='put in your day'>
+            </form>
+        </section>
+
+        <section class='toGetResult'>
+            <button type='submit' id='btn'>let's see what we get.</button>
+        </section>
+        
+        <section class='whatYouAre'>
+        <h3 id='results'></h3>
+        <p id='description'></p>
+        <p id='sisterSigns'></p>
+        <p id='rulingPlanet'></p>
+
+        </section>
+
+    </section>
+        
+        
+    
+
+    <script src='js/bh-js.js'></script>
+    
+
+    <!-- two inputs and a button, submit, use ids instead of classes -->
+</body>
+</html>
